@@ -1,0 +1,23 @@
+HTTP requests using Axios:-
+-------------------------------
+Axios is a very popular JavaScript library you can use to perform HTTP requests,
+that works in both Browser and Node.js platforms.
+
+Installation:-
+--------------
+Axios can be installed to be used in Node.js using npm:
+
+    ex:-  npm install axios --save
+
+In the browser, you can include it in your page using unpkg.com:
+
+ ex-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ 
+Remembering that API calls must enable CORS to be accessed inside the browser, otherwise the request will fail.
+
+Ajax:-
+------
+Ajax is a standard and web development technique (Ajax (programming) - Wikipedia). 
+Axios is just a JavaScript library that helps you to use Ajax easier. 
+There are other JavaScript libraries, such as jQuery (jQuery), Request (request/request), Fetch (github/fetch), 
+that help to do similar functionalities.

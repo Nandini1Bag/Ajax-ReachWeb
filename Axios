@@ -21,3 +21,14 @@ Ajax is a standard and web development technique (Ajax (programming) - Wikipedia
 Axios is just a JavaScript library that helps you to use Ajax easier. 
 There are other JavaScript libraries, such as jQuery (jQuery), Request (request/request), Fetch (github/fetch), 
 that help to do similar functionalities.
+
+
+Interceptors:-
+--------------------
+Catching is implemented with the Axios feature called interceptors. It's possible to catch all requests 
+before they are sent and modify them. Also, responses and errors can be caught globally. 
+For example, interceptors are useful when you want to modify request headers before a request is sent or 
+you are implementing some kind of global error handling system.
+
+Of course, for real use case, it might be too general to handle all requests and responses in the same way. 
+That’s why we will also have a configuration option for each HTTP requests to disable global handling.

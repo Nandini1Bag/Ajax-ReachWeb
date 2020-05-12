@@ -32,3 +32,7 @@ you are implementing some kind of global error handling system.
 
 Of course, for real use case, it might be too general to handle all requests and responses in the same way. 
 That’s why we will also have a configuration option for each HTTP requests to disable global handling.
+
+
+//getting rid of interceptors
+//axios.interceptors.request.eject(myInterceptor);

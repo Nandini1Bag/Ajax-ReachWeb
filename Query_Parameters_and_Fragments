@@ -6,6 +6,7 @@ But how do you extract search (also referred to as "query") parameters (=> ?some
 How do you extract the fragment (=> #something  at the end of the URL)?
 
 Query Params:
+--------------
 You can pass them easily like this:
 
 <Link to="/my-path?start=5">Go to Start</Link> 
@@ -37,6 +38,7 @@ When looping through query.entries() , you get arrays where the first element is
 assigned value (e.g. 5 ).
 
 Fragment:
+------------
 You can pass it easily like this:
 
 <Link to="/my-path#start-position">Go to Start</Link> 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import axios from 'axios';
 //import axios from '../../axios';
-import {Route,NavLink,Switch} from 'react-router-dom';
+import {Route,NavLink,Switch,Redirect} from 'react-router-dom';
 
 import './Blog.css';
 import Posts from './Posts/Posts';
@@ -35,7 +35,10 @@ class Blog extends Component {
                 <Route path="/" exact render={()=> <h1>Home 2</h1>}/>*/}
                 <Switch>           
                 <Route path="/new-post"  component={NewPosts}/>
-                <Route path="/"  component={Posts}/>
+                <Route path="/posts"  component={Posts}/>
+                {/*<Route path="/"  component={Posts}/>*/}
+                <Redirect from="/" to="/posts"/> 
+                {/*Rendering a <Redirect> will navigate to a new location.*/}
                 {/*Order is important*/}
                 </Switch>
             </div>
